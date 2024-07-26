@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "X:/Xilinx/final_project_faze1/module_3_4/park_space_number.xst" -ofn "X:/Xilinx/final_project_faze1/module_3_4/park_space_number.syr" 
+xst -intstyle ise -ifn "X:/Xilinx/final_project_faze1/module_3_4/park_space_number.xst" -ofn "X:/Xilinx/final_project_faze1/module_3_4/park_space_number.syr" 

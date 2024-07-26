@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="114" delta="unknown" >"C:/Users/Dafe  Computer  Co/Desktop/LC/finalVersionProject/project/final_project_faze1/module_3_4/parking_capacity_counter.v" Line 80: /* in comment
+</msg>
+
+</messages>
+

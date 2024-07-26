@@ -1,0 +1,4 @@
+verilog work "fulladder.v"
+verilog work "adder_subtractor.v"
+verilog work "adder_subtractor_4bit.v"
+verilog work "parking_capacity_counter.v"

@@ -1,0 +1,28 @@
+Command line:
+   tb_parking_capacity_counter_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  53211
+
+Thu Jan 06 15:12:51 2022
+
+
+ Elaboration Time: 0.34375 sec
+
+ Current Memory Usage: 362.258 Meg
+
+ Total Signals          : 697
+ Total Nets             : 1117
+ Total Signal Drivers   : 297
+ Total Blocks           : 92
+ Total Primitive Blocks : 45
+ Total Processes        : 299
+ Total Traceable Variables  : 19
+ Total Scalar Nets and Variables : 1205
+
+ Total Simulation Time: 0.359375 sec
+
+ Current Memory Usage: 362.258 Meg
+
+Thu Jan 06 15:13:03 2022
+

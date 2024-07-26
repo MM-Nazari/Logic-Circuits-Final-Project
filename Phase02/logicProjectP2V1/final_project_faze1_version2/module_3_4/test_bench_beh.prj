@@ -1,0 +1,4 @@
+verilog work "register.v"
+verilog work "controller.v"
+verilog work "test_bench.v"
+verilog work "X:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

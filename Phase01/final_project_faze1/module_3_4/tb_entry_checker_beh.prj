@@ -1,0 +1,3 @@
+verilog work "entry_checker.v"
+verilog work "tb_entry_checker.v"
+verilog work "X:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

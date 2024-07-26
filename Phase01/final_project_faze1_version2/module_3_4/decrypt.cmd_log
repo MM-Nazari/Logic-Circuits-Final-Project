@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "C:/Users/Dafe  Computer  Co/Desktop/LC/project/project code/module_3_4/decrypt.xst" -ofn "C:/Users/Dafe  Computer  Co/Desktop/LC/project/project code/module_3_4/decrypt.syr" 
+xst -intstyle ise -ifn "X:/Xilinx/final_project_faze1/module_3_4/decrypt.xst" -ofn "X:/Xilinx/final_project_faze1/module_3_4/decrypt.syr" 

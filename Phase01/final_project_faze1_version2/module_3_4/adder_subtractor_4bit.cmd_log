@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "X:/Xilinx/final_project_faze1/module_3_4/adder_subtractor_4bit.xst" -ofn "X:/Xilinx/final_project_faze1/module_3_4/adder_subtractor_4bit.syr" 

@@ -1,0 +1,28 @@
+Command line:
+   parking_capacity_counter_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  3145
+
+Thu Jan 06 18:27:14 2022
+
+
+ Elaboration Time: 0.09375 sec
+
+ Current Memory Usage: 5154.93 Meg
+
+ Total Signals          : 685
+ Total Nets             : 629
+ Total Signal Drivers   : 266
+ Total Blocks           : 92
+ Total Primitive Blocks : 41
+ Total Processes        : 267
+ Total Traceable Variables  : 18
+ Total Scalar Nets and Variables : 709
+
+ Total Simulation Time: 0.15625 sec
+
+ Current Memory Usage: 5154.93 Meg
+
+Thu Jan 06 18:27:33 2022
+

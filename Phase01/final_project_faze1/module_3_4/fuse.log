@@ -1,0 +1,18 @@
+Running: X:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o X:/Xilinx/final_project_faze1/module_3_4/tb_entry_checker_isim_beh.exe -prj X:/Xilinx/final_project_faze1/module_3_4/tb_entry_checker_beh.prj work.tb_entry_checker work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "X:/Xilinx/final_project_faze1/module_3_4/entry_checker.v" into library work
+Analyzing Verilog file "X:/Xilinx/final_project_faze1/module_3_4/tb_entry_checker.v" into library work
+Analyzing Verilog file "X:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module entry_checker
+Compiling module tb_entry_checker
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Compiled 3 Verilog Units
+Built simulation executable X:/Xilinx/final_project_faze1/module_3_4/tb_entry_checker_isim_beh.exe
+Fuse Memory Usage: 25708 KB
+Fuse CPU Usage: 1421 ms

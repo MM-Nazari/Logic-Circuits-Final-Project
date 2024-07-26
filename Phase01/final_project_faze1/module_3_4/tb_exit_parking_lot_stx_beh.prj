@@ -1,0 +1,2 @@
+verilog isim_temp "tb_exit_parking_lot.v"
+verilog isim_temp "X:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

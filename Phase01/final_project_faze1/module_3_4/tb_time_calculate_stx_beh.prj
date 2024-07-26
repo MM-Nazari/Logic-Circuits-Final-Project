@@ -1,0 +1,5 @@
+verilog isim_temp "fulladder.v"
+verilog isim_temp "adder_subtractor.v"
+verilog isim_temp "time_calculate.v"
+verilog isim_temp "tb_time_calculate.v"
+verilog isim_temp "X:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

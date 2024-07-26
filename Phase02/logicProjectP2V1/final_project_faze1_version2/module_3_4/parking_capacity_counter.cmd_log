@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "X:/Xilinx/logicProjectP2V1/final_project_faze1_version2/module_3_4/parking_capacity_counter.xst" -ofn "X:/Xilinx/logicProjectP2V1/final_project_faze1_version2/module_3_4/parking_capacity_counter.syr" 
+xst -intstyle ise -ifn "X:/Xilinx/logicProjectP2V1/final_project_faze1_version2/module_3_4/parking_capacity_counter.xst" -ofn "X:/Xilinx/logicProjectP2V1/final_project_faze1_version2/module_3_4/parking_capacity_counter.syr" 

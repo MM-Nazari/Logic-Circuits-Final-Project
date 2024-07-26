@@ -1,0 +1,28 @@
+Command line:
+   test_bench_smart_parking_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  53304
+
+Tue Jan 25 00:12:54 2022
+
+
+ Elaboration Time: 0.203125 sec
+
+ Current Memory Usage: 5153.83 Meg
+
+ Total Signals          : 867
+ Total Nets             : 442
+ Total Signal Drivers   : 355
+ Total Blocks           : 122
+ Total Primitive Blocks : 56
+ Total Processes        : 360
+ Total Traceable Variables  : 28
+ Total Scalar Nets and Variables : 578
+
+ Total Simulation Time: 0.28125 sec
+
+ Current Memory Usage: 5153.83 Meg
+
+Tue Jan 25 00:13:20 2022
+

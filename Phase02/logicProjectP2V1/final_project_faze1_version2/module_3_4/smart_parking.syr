@@ -1,0 +1,624 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.67 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.68 secs
+ 
+--> Reading design: smart_parking.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "smart_parking.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "smart_parking"
+Output Format                      : NGC
+Target Device                      : xc3s400-5-pq208
+
+---- Source Options
+Top Module Name                    : smart_parking
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 8
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "fulladder.v" in library work
+Compiling verilog file "adder_subtractor.v" in library work
+Module <fulladder> compiled
+Compiling verilog file "park_space_number.v" in library work
+Module <adder_subtractor> compiled
+Compiling verilog file "exit_parking_lot.v" in library work
+Module <park_space_number> compiled
+Compiling verilog file "entry_checker.v" in library work
+Module <exit_parking_lot> compiled
+Compiling verilog file "decrypt.v" in library work
+Module <entry_checker> compiled
+Module <decrypt> compiled
+Compiling verilog file "adder_subtractor_8bit.v" in library work
+Module <xor3bit> compiled
+Compiling verilog file "adder_subtractor_4bit.v" in library work
+Module <adder_subtractor_8bit> compiled
+Compiling verilog file "update_capacity.v" in library work
+Module <adder_subtractor_4bit> compiled
+Compiling verilog file "token_production.v" in library work
+Module <update_capacity> compiled
+Compiling verilog file "time_calculate.v" in library work
+Module <token_production> compiled
+Compiling verilog file "parking_capacity_counter.v" in library work
+Module <time_calculate> compiled
+Compiling verilog file "exit_park.v" in library work
+Module <parking_capacity_counter> compiled
+Compiling verilog file "entry_park.v" in library work
+Module <exit_park> compiled
+Compiling verilog file "calculate_new_capacity.v" in library work
+Module <entry_park> compiled
+Compiling verilog file "smart_parking.v" in library work
+Module <calculate_new_capacity> compiled
+Module <smart_parking> compiled
+No errors in compilation
+Analysis of file <"smart_parking.prj"> succeeded.
+ 
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for module <smart_parking> in library <work>.
+
+Analyzing hierarchy for module <entry_park> in library <work>.
+
+Analyzing hierarchy for module <token_production> in library <work>.
+
+Analyzing hierarchy for module <exit_park> in library <work>.
+
+Analyzing hierarchy for module <update_capacity> in library <work>.
+
+Analyzing hierarchy for module <calculate_new_capacity> in library <work>.
+
+Analyzing hierarchy for module <parking_capacity_counter> in library <work>.
+
+Analyzing hierarchy for module <time_calculate> in library <work>.
+
+Analyzing hierarchy for module <entry_checker> in library <work>.
+
+Analyzing hierarchy for module <park_space_number> in library <work>.
+
+Analyzing hierarchy for module <decrypt> in library <work>.
+
+Analyzing hierarchy for module <exit_parking_lot> in library <work>.
+
+Analyzing hierarchy for module <adder_subtractor_4bit> in library <work>.
+
+Analyzing hierarchy for module <adder_subtractor_8bit> in library <work>.
+
+Analyzing hierarchy for module <xor3bit> in library <work>.
+
+Analyzing hierarchy for module <adder_subtractor> in library <work>.
+
+Analyzing hierarchy for module <fulladder> in library <work>.
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <smart_parking>.
+Module <smart_parking> is correct for synthesis.
+ 
+Analyzing module <entry_park> in library <work>.
+Module <entry_park> is correct for synthesis.
+ 
+Analyzing module <entry_checker> in library <work>.
+Module <entry_checker> is correct for synthesis.
+ 
+Analyzing module <park_space_number> in library <work>.
+Module <park_space_number> is correct for synthesis.
+ 
+Analyzing module <token_production> in library <work>.
+Module <token_production> is correct for synthesis.
+ 
+Analyzing module <exit_park> in library <work>.
+Module <exit_park> is correct for synthesis.
+ 
+Analyzing module <decrypt> in library <work>.
+Module <decrypt> is correct for synthesis.
+ 
+Analyzing module <xor3bit> in library <work>.
+Module <xor3bit> is correct for synthesis.
+ 
+Analyzing module <exit_parking_lot> in library <work>.
+Module <exit_parking_lot> is correct for synthesis.
+ 
+Analyzing module <update_capacity> in library <work>.
+Module <update_capacity> is correct for synthesis.
+ 
+Analyzing module <calculate_new_capacity> in library <work>.
+Module <calculate_new_capacity> is correct for synthesis.
+ 
+Analyzing module <parking_capacity_counter> in library <work>.
+Module <parking_capacity_counter> is correct for synthesis.
+ 
+Analyzing module <adder_subtractor_4bit> in library <work>.
+Module <adder_subtractor_4bit> is correct for synthesis.
+ 
+Analyzing module <adder_subtractor> in library <work>.
+Module <adder_subtractor> is correct for synthesis.
+ 
+Analyzing module <fulladder> in library <work>.
+Module <fulladder> is correct for synthesis.
+ 
+Analyzing module <time_calculate> in library <work>.
+Module <time_calculate> is correct for synthesis.
+ 
+Analyzing module <adder_subtractor_8bit> in library <work>.
+Module <adder_subtractor_8bit> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <token_production>.
+    Related source file is "token_production.v".
+    Found 3-bit xor2 for signal <token>.
+Unit <token_production> synthesized.
+
+
+Synthesizing Unit <update_capacity>.
+    Related source file is "update_capacity.v".
+WARNING:Xst:737 - Found 8-bit latch for signal <$old_cap_2>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Found 8-bit subtractor for signal <parking_capacity_new>.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+Unit <update_capacity> synthesized.
+
+
+Synthesizing Unit <calculate_new_capacity>.
+    Related source file is "calculate_new_capacity.v".
+    Found 1-bit adder for signal <new_capacity>.
+    Summary:
+	inferred   8 Adder/Subtractor(s).
+Unit <calculate_new_capacity> synthesized.
+
+
+Synthesizing Unit <entry_checker>.
+    Related source file is "entry_checker.v".
+Unit <entry_checker> synthesized.
+
+
+Synthesizing Unit <park_space_number>.
+    Related source file is "park_space_number.v".
+WARNING:Xst:647 - Input <parking_capacity<0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+Unit <park_space_number> synthesized.
+
+
+Synthesizing Unit <exit_parking_lot>.
+    Related source file is "exit_parking_lot.v".
+    Found 1-of-8 decoder for signal <park_location>.
+    Summary:
+	inferred   1 Decoder(s).
+Unit <exit_parking_lot> synthesized.
+
+
+Synthesizing Unit <xor3bit>.
+    Related source file is "decrypt.v".
+    Found 3-bit xor2 for signal <out>.
+Unit <xor3bit> synthesized.
+
+
+Synthesizing Unit <fulladder>.
+    Related source file is "fulladder.v".
+    Found 1-bit xor2 for signal <s>.
+    Found 1-bit xor2 for signal <i1>.
+Unit <fulladder> synthesized.
+
+
+Synthesizing Unit <entry_park>.
+    Related source file is "entry_park.v".
+Unit <entry_park> synthesized.
+
+
+Synthesizing Unit <decrypt>.
+    Related source file is "decrypt.v".
+Unit <decrypt> synthesized.
+
+
+Synthesizing Unit <adder_subtractor>.
+    Related source file is "adder_subtractor.v".
+    Found 1-bit xor2 for signal <y>.
+Unit <adder_subtractor> synthesized.
+
+
+Synthesizing Unit <exit_park>.
+    Related source file is "exit_park.v".
+Unit <exit_park> synthesized.
+
+
+Synthesizing Unit <adder_subtractor_4bit>.
+    Related source file is "adder_subtractor_4bit.v".
+Unit <adder_subtractor_4bit> synthesized.
+
+
+Synthesizing Unit <adder_subtractor_8bit>.
+    Related source file is "adder_subtractor_8bit.v".
+Unit <adder_subtractor_8bit> synthesized.
+
+
+Synthesizing Unit <parking_capacity_counter>.
+    Related source file is "parking_capacity_counter.v".
+Unit <parking_capacity_counter> synthesized.
+
+
+Synthesizing Unit <time_calculate>.
+    Related source file is "time_calculate.v".
+Unit <time_calculate> synthesized.
+
+
+Synthesizing Unit <smart_parking>.
+    Related source file is "smart_parking.v".
+Unit <smart_parking> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 9
+ 1-bit adder                                           : 8
+ 8-bit subtractor                                      : 1
+# Latches                                              : 1
+ 8-bit latch                                           : 1
+# Decoders                                             : 1
+ 1-of-8 decoder                                        : 1
+# Xors                                                 : 150
+ 1-bit xor2                                            : 150
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+WARNING:Xst:1290 - Hierarchical block <a1> is unconnected in block <a0x>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <a2> is unconnected in block <a0x>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <a3> is unconnected in block <a0x>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <a2> is unconnected in block <a1x>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <a3> is unconnected in block <a1x>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <a3> is unconnected in block <a2x>.
+   It will be removed from the design.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 9
+ 1-bit adder                                           : 8
+ 8-bit subtractor                                      : 1
+# Latches                                              : 1
+ 8-bit latch                                           : 1
+# Decoders                                             : 1
+ 1-of-8 decoder                                        : 1
+# Xors                                                 : 150
+ 1-bit xor2                                            : 150
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <smart_parking> ...
+
+Optimizing unit <adder_subtractor_8bit> ...
+
+Optimizing unit <parking_capacity_counter> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block smart_parking, actual ratio is 1.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : smart_parking.ngr
+Top Level Output File Name         : smart_parking
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 53
+
+Cell Usage :
+# BELS                             : 115
+#      GND                         : 1
+#      LUT2                        : 13
+#      LUT3                        : 26
+#      LUT4                        : 53
+#      MUXCY                       : 7
+#      MUXF5                       : 6
+#      VCC                         : 1
+#      XORCY                       : 8
+# FlipFlops/Latches                : 8
+#      LDCP                        : 8
+# Clock Buffers                    : 1
+#      BUFG                        : 1
+# IO Buffers                       : 50
+#      IBUF                        : 26
+#      OBUF                        : 24
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s400pq208-5 
+
+ Number of Slices:                       52  out of   3584     1%  
+ Number of Slice Flip Flops:              8  out of   7168     0%  
+ Number of 4 input LUTs:                 92  out of   7168     1%  
+ Number of IOs:                          53
+ Number of bonded IOBs:                  50  out of    141    35%  
+ Number of GCLKs:                         1  out of      8    12%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+parking_capacity<0>                | IBUF+BUFG              | 8     |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------------------------+------------------------+-------+
+Control Signal                                       | Buffer(FF name)        | Load  |
+-----------------------------------------------------+------------------------+-------+
+N0(XST_GND:G)                                        | NONE(uc/_old_cap_2_0)  | 1     |
+parking_capacity<6>                                  | IBUF                   | 1     |
+parking_capacity<7>                                  | IBUF                   | 1     |
+uc/_old_cap_2_0__or0000(uc/_old_cap_2_0__or00001:O)  | NONE(uc/_old_cap_2_0)  | 1     |
+uc/_old_cap_2_1__and0000(uc/_old_cap_2_1__and00001:O)| NONE(uc/_old_cap_2_1)  | 1     |
+uc/_old_cap_2_1__or0000(uc/_old_cap_2_1__or00001:O)  | NONE(uc/_old_cap_2_1)  | 1     |
+uc/_old_cap_2_2__and0000(uc/old_cap_2_mux0000<5>1:O) | NONE(uc/_old_cap_2_2)  | 1     |
+uc/_old_cap_2_2__or0000(uc/_old_cap_2_2__or00001:O)  | NONE(uc/_old_cap_2_2)  | 1     |
+uc/_old_cap_2_3__and0000(uc/old_cap_2_mux0000<4>1:O) | NONE(uc/_old_cap_2_3)  | 1     |
+uc/_old_cap_2_3__or0000(uc/_old_cap_2_3__or00001:O)  | NONE(uc/_old_cap_2_3)  | 1     |
+uc/_old_cap_2_4__and0000(uc/_old_cap_2_4__and00001:O)| NONE(uc/_old_cap_2_4)  | 1     |
+uc/_old_cap_2_4__or0000(uc/_old_cap_2_4__or00001:O)  | NONE(uc/_old_cap_2_4)  | 1     |
+uc/_old_cap_2_5__and0000(uc/_old_cap_2_5__and00001:O)| NONE(uc/_old_cap_2_5)  | 1     |
+uc/_old_cap_2_5__or0000(uc/_old_cap_2_5__or00001:O)  | NONE(uc/_old_cap_2_5)  | 1     |
+uc/_old_cap_2_6__or0000(uc/_old_cap_2_6__or00001:O)  | NONE(uc/_old_cap_2_6)  | 1     |
+uc/_old_cap_2_7__or0000(uc/_old_cap_2_7__or00001:O)  | NONE(uc/_old_cap_2_7)  | 1     |
+-----------------------------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: 4.266ns
+   Maximum output required time after clock: 16.565ns
+   Maximum combinational path delay: 18.271ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'parking_capacity<0>'
+  Total number of paths / destination ports: 27 / 7
+-------------------------------------------------------------------------
+Offset:              4.266ns (Levels of Logic = 3)
+  Source:            parking_capacity<4> (PAD)
+  Destination:       uc/_old_cap_2_2 (LATCH)
+  Destination Clock: parking_capacity<0> falling
+
+  Data Path: parking_capacity<4> to uc/_old_cap_2_2
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             8   0.715   1.216  parking_capacity_4_IBUF (parking_capacity_4_IBUF)
+     LUT3:I0->O            7   0.479   1.201  uc/old_cap_2_or000011 (N6)
+     LUT3:I0->O            3   0.479   0.000  uc/old_cap_2_mux0000<5>1 (uc/_old_cap_2_2__and0000)
+     LDCP:D                    0.176          uc/_old_cap_2_2
+    ----------------------------------------
+    Total                      4.266ns (1.849ns logic, 2.417ns route)
+                                       (43.3% logic, 56.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'parking_capacity<0>'
+  Total number of paths / destination ports: 1262 / 16
+-------------------------------------------------------------------------
+Offset:              16.565ns (Levels of Logic = 15)
+  Source:            uc/_old_cap_2_0 (LATCH)
+  Destination:       parked<1> (PAD)
+  Source Clock:      parking_capacity<0> falling
+
+  Data Path: uc/_old_cap_2_0 to parked<1>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LDCP:G->Q             1   0.551   0.851  uc/_old_cap_2_0 (uc/_old_cap_2_0)
+     LUT2:I1->O            1   0.479   0.000  uc/Msub_parking_capacity_new_lut<0> (uc/Msub_parking_capacity_new_lut<0>)
+     MUXCY:S->O            1   0.435   0.000  uc/Msub_parking_capacity_new_cy<0> (uc/Msub_parking_capacity_new_cy<0>)
+     MUXCY:CI->O           1   0.056   0.000  uc/Msub_parking_capacity_new_cy<1> (uc/Msub_parking_capacity_new_cy<1>)
+     MUXCY:CI->O           1   0.056   0.000  uc/Msub_parking_capacity_new_cy<2> (uc/Msub_parking_capacity_new_cy<2>)
+     MUXCY:CI->O           1   0.056   0.000  uc/Msub_parking_capacity_new_cy<3> (uc/Msub_parking_capacity_new_cy<3>)
+     MUXCY:CI->O           1   0.056   0.000  uc/Msub_parking_capacity_new_cy<4> (uc/Msub_parking_capacity_new_cy<4>)
+     MUXCY:CI->O           1   0.056   0.000  uc/Msub_parking_capacity_new_cy<5> (uc/Msub_parking_capacity_new_cy<5>)
+     XORCY:CI->O           1   0.786   0.851  uc/Msub_parking_capacity_new_xor<6> (parking_capacity_new<6>)
+     LUT4:I1->O           13   0.479   1.290  cnc/Madd_new_capacity<6>_lut<0>1 (new_capacity_6_OBUF)
+     LUT4:I0->O            2   0.479   0.915  pcc/empty<1>91 (pcc/empty<1>_bdd10)
+     LUT3:I1->O            2   0.479   0.915  pcc/empty<1>101 (pcc/empty<1>_bdd7)
+     LUT3:I1->O            2   0.479   0.915  pcc/empty<1>111 (pcc/empty<1>_bdd4)
+     LUT3:I1->O            1   0.479   0.000  pcc/parked<1>_G (N20)
+     MUXF5:I1->O           1   0.314   0.681  pcc/parked<1> (parked_1_OBUF)
+     OBUF:I->O                 4.909          parked_1_OBUF (parked<1>)
+    ----------------------------------------
+    Total                     16.565ns (10.147ns logic, 6.418ns route)
+                                       (61.3% logic, 38.7% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 9189 / 24
+-------------------------------------------------------------------------
+Delay:               18.271ns (Levels of Logic = 11)
+  Source:            parking_capacity<1> (PAD)
+  Destination:       parked<1> (PAD)
+
+  Data Path: parking_capacity<1> to parked<1>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             6   0.715   1.148  parking_capacity_1_IBUF (parking_capacity_1_IBUF)
+     LUT4:I0->O            1   0.479   0.976  exp/decrypt1/park_number<0>11 (exp/decrypt1/park_number<0>11)
+     LUT3:I0->O            1   0.479   0.704  exp/decrypt1/park_number<0>37_SW0 (N17)
+     LUT4:I3->O            8   0.479   1.216  exp/decrypt1/park_number<0>37 (exp/park_number<0>)
+     LUT4:I0->O           11   0.479   1.031  cnc/Madd_new_capacity<3>_lut<0>1 (new_capacity_3_OBUF)
+     LUT4:I2->O            2   0.479   0.915  pcc/empty<1>91 (pcc/empty<1>_bdd10)
+     LUT3:I1->O            2   0.479   0.915  pcc/empty<1>101 (pcc/empty<1>_bdd7)
+     LUT3:I1->O            2   0.479   0.915  pcc/empty<1>111 (pcc/empty<1>_bdd4)
+     LUT3:I1->O            1   0.479   0.000  pcc/parked<1>_G (N20)
+     MUXF5:I1->O           1   0.314   0.681  pcc/parked<1> (parked_1_OBUF)
+     OBUF:I->O                 4.909          parked_1_OBUF (parked<1>)
+    ----------------------------------------
+    Total                     18.271ns (9.770ns logic, 8.501ns route)
+                                       (53.5% logic, 46.5% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 30.00 secs
+Total CPU time to Xst completion: 30.19 secs
+ 
+--> 
+
+Total memory usage is 4544552 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    9 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

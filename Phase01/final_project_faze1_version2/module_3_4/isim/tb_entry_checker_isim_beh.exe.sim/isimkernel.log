@@ -1,0 +1,28 @@
+Command line:
+   tb_entry_checker_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  53265
+
+Thu Jan 06 15:14:30 2022
+
+
+ Elaboration Time: 0.3125 sec
+
+ Current Memory Usage: 362.23 Meg
+
+ Total Signals          : 19
+ Total Nets             : 25
+ Total Signal Drivers   : 10
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 12
+ Total Traceable Variables  : 20
+ Total Scalar Nets and Variables : 114
+
+ Total Simulation Time: 0.609375 sec
+
+ Current Memory Usage: 676.819 Meg
+
+Thu Jan 06 15:15:13 2022
+

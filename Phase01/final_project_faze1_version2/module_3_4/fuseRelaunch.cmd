@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "C:/Users/Dafe  Computer  Co/Desktop/LC/finalVersionProject/project/final_project_faze1/module_3_4/tb_exit_park_isim_beh.exe" -prj "C:/Users/Dafe  Computer  Co/Desktop/LC/finalVersionProject/project/final_project_faze1/module_3_4/tb_exit_park_beh.prj" "work.tb_exit_park" "work.glbl" 

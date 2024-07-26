@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "C:/Users/Dafe  Computer  Co/Desktop/logicProjectP2V1/final_project_faze1_version2/module_3_4/update_capacity.xst" -ofn "C:/Users/Dafe  Computer  Co/Desktop/logicProjectP2V1/final_project_faze1_version2/module_3_4/update_capacity.syr" 
+xst -intstyle ise -ifn "X:/Xilinx/logicProjectP2V1/final_project_faze1_version2/module_3_4/update_capacity.xst" -ofn "X:/Xilinx/logicProjectP2V1/final_project_faze1_version2/module_3_4/update_capacity.syr" 
