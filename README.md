@@ -14,7 +14,7 @@ The implemented Project Code is in [Phase01 Code](./Phase01).
 
 ### Phase02
 For a detailed project description, please refer to the [Phase02 Description PDF](./Phase02/FinalProject(p2).pdf). <br />
-The implemented Project Code is in [Phase02 Code](./Phase02).
+The implemented Project Code is in [Phase02 Code](./Phase02/logicProjectP2V1/final_project_faze1_version2/module_3_4).
 
 ## IDE
 This project is developed using Xilinx ISE Design Suite.
