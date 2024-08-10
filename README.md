@@ -1,4 +1,4 @@
-# Logic-Circuits-Labs
+# Smart Parking System
 
 ## Table of Contents
 - [Project Description](#project-description)
@@ -10,11 +10,11 @@
 
 ### Phase01
 For a detailed project description, please refer to the [Phase01 Description PDF](./Phase01/FinalProject.pdf). <br />
-The implemented Project Code is in [Phase01 Code Folder](./Phase01).
+The implemented Project Code is in [Phase01 Code](./Phase01).
 
 ### Phase02
 For a detailed project description, please refer to the [Phase02 Description PDF](./Phase02/FinalProject(p2).pdf). <br />
-The implemented Project Code is in [Phase02 Code Folder](./Phase02).
+The implemented Project Code is in [Phase02 Code](./Phase02).
 
 ## IDE
 This project is developed using Xilinx ISE Design Suite.
