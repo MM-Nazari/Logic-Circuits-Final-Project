@@ -10,7 +10,7 @@
 
 ### Phase01
 For a detailed project description, please refer to the [Phase01 Description PDF](./Phase01/FinalProject.pdf). <br />
-The implemented Project Code is in [Phase01 Code](./Phase01).
+The implemented Project Code is in [Phase01 Code](./Phase01/final_project_faze1_version2/module_3_4).
 
 ### Phase02
 For a detailed project description, please refer to the [Phase02 Description PDF](./Phase02/FinalProject(p2).pdf). <br />
