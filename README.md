@@ -7,38 +7,14 @@
 - [Contributors](#contributors)
 
 ## Project Description
-For a detailed Labs description, please refer to the [Labs Description PDF](./LogicLabManual%20(1).pdf).
 
-### Lab03: Karnaugh table
-The Pre Report for this Part is provided in the [Lab03 Pre Report PDF](./Lab03/پیش%20گزارش%20آزمایش%20۳%20منطقی%20-%20۹۹۳۱۰۶۱.pdf). <br />
+### Phase01
+For a detailed project description, please refer to the [Phase01 Description PDF](./Phase01/FinalProject.pdf). <br />
+The implemented Project Code is in [Phase01 Code Folder](./Phase01).
 
-### Lab04: Introduction to Verilog
-The Pre Report for this Part is provided in the [Lab04 Pre Report PDF](./Lab04/پیش%20گزارش%20آزمایش%20۴%20منطقی%20-%20۹۹۳۱۰۶۱.pdf). <br />
-The Implemented Project is in [Lab04 Project](./Lab04).
-
-### Lab05: Encoder, Decoder, Multiplexer
-The Pre Report for this Part is provided in the [Lab05 Pre Report PDF](./Lab05/پیش%20گزارش%20آزمایش%20۵%20منطقی%20-%20۹۹۳۱۰۶۱.pdf). <br />
-The Implemented Project is in [Lab05 Project](./Lab05).
-
-### Lab06: Comparator
-The Pre Report for this Part is provided in the [Lab06 Pre Report PDF](./Lab06/پیش%20گزارش%20آزمایش%20۶%20منطقی%20-%20۹۹۳۱۰۶۱.pdf). <br />
-The Implemented Project is in [Lab06 Project](./Lab06).
-
-### Lab07: Full Adder, Adder-Subtractor
-The Pre Report for this Part is provided in the [Lab07 Pre Report PDF](./Lab07/پیش%20گزارش%20آزمایش%20۷%20منطقی%20-%20۹۹۳۱۰۶۱.pdf). <br />
-The Implemented Project is in [Lab07 Project](./Lab07).
-
-### Lab08:ALU
-The Pre Report for this Part is provided in the [Lab08 Pre Report PDF](./Lab08/پیش%20گزارش%20آزمایش%20۸%20منطقی%20-%20۹۹۳۱۰۶۱.pdf). <br />
-The Implemented Project is in [Lab08 Project](./Lab08).
-
-### Lab09: Sequentioal logic units, Flip Flop
-The Pre Report for this Part is provided in the [Lab09 Pre Report PDF](./Lab09/پیش%20گزارش%20آزمایش%20۹%20منطقی%20-%20۹۹۳۱۰۶۱.pdf). <br />
-The Implemented Project is in [Lab09 Project](./Lab09).
-
-### Lab10: FSM
-The Pre Report for this Part is provided in the [Lab10 Pre Report PDF](./Lab10/پیش%20گزارش%20آزمایش%20۱۰%20منطقی%20-%20۹۹۳۱۰۶۱.pdf). <br />
-The Implemented Project is in [Lab10 Project](./Lab10).
+### Phase02
+For a detailed project description, please refer to the [Phase02 Description PDF](./Phase02/FinalProject(p2).pdf). <br />
+The implemented Project Code is in [Phase02 Code Folder](./Phase02).
 
 ## IDE
 This project is developed using Xilinx ISE Design Suite.
